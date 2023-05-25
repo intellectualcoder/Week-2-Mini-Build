@@ -131,6 +131,11 @@ h2 {
   padding: 0 24px;
 }
 
+.home__img--wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .section__description--para {
   font-size: 20px;
   margin-bottom: 24px;
@@ -201,7 +206,7 @@ footer {
 
 /*
  small phones, tablets, large smart phones */
-@media (max-width: 728px;) {
+@media (max-width: 728px) {
   .row {
     flex-direction: column;
   }
@@ -255,7 +260,15 @@ footer {
 .footer__logo {
   max-width: 360px;
 }
+
+@media (max-width: 480px) {
+  .row {
+    flex-direction: column;
+  }
+
 }
+
+
 
 .footer__link {
   padding: 0 4px;
@@ -264,4 +277,6 @@ footer {
 
 .footer__links {
   margin-bottom: 24px;
+}
+
 }
